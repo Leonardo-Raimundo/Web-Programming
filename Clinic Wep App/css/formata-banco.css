@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #ebf2fa;
+    color: #76a39c;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    border: none;
+    /* border-bottom: 1px solid #777; */
+    background: #76a39c;
+    /* box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); */
+    /* box-shadow: 1px 2px 1px white; */
+    color: white;
+    padding: 10px;
+}
+
+label.alinha {
+    width: 320px;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+input, button, select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+fieldset {
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    border: none;
+    /* border-color: #7d4f50; */
+    border-radius: 10px;
+    background: url(https://thumbs.dreamstime.com/b/soft-light-health-abstract-background-healthcare-blue-background-healthcare-blue-abstract-background-175369902.jpg);
+    /* background-image: url(./imagens-de-fundo//fundo.jpg); */
+    background-size: 100% auto;
+    box-shadow: 5px 5px 5px #76a39c;
+}
+
+button {
+    font-weight: bold;
+    /* font-style: italic; */
+    background-color: #76a39c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 15px;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 0;
+    /* width: 150px;
+    height: 40px; */
+
+}
+
+button:hover {
+    background-color: #a4d1ca;
+    color: white;
+  }
+
+p { width: 50%;
+    /* border: 1px solid #7D4F50; */
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+table {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    /* background: rgba (133, 125, 177, 0.5); */
+    margin: 30px auto;
+}
+
+th, td { 
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+th {
+    background: #7d4f50;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+}
+
+span {
+    color: #ac4b48;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+textarea {
+    width: 35%;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+    vertical-align: top; /*alinhamento do label em relação à altura do textarea, no topo da caixa.*/
+}
+
+legend {
+    font-weight: bold;
+}
